@@ -1,0 +1,12 @@
+body{
+    height: 100%;
+    margin: 0;
+}
+
+#viewPort{
+    text-align: center;
+}
+
+#author{
+    text-align: right;
+}
