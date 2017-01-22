@@ -1,0 +1,71 @@
+html, body {
+    margin: 0;
+    height: 100%;
+    background-image:url(https://rawgit.com/Tan-Moy/00f5f579c52a90d0fa47d29b8afeb34e/raw/eb4d43cee7b0fae1550651537280c7de7a45e27f/desert.svg);
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+#viewPort{
+    text-align: center;
+    padding: 10px;
+}
+
+#quote{
+    font-family: 'Quicksand', sans-serif;
+    font-weight: 500;
+}
+
+#author{
+    text-align: right;
+    font-family: 'Quicksand', sans-serif;
+    font-weight: 400;
+}
+
+#container{
+  padding-top: 5%;
+  width: 60%;
+  /*z-index:10;*/
+  position: relative;
+  /*margin: 0 auto; */
+}
+
+.button{
+  padding: 10px;
+  margin: 0 auto; 
+  text-align: center;
+}
+
+.btns{
+  background-color:#FFCA73;
+  color:#353333;
+  border-width:  1px;
+  border-radius: 5px;
+  border-color: black;
+  border-style: solid;
+  padding: 14px 24px;
+  font-weight: 700;
+  font-family: 'Quicksand', sans-serif;
+  letter-spacing: 1px;
+  height: 100%;
+  outline: none;
+  font-size: inherit;
+  transition: all 0.3s;
+  --webkit-transition: all 0.3s;
+  --moz-transition: all 0.3s;
+}
+
+.btns:hover{
+    color: white;
+    background: #E9A027;
+}
+
+
+#jumbo{
+    padding: 5%;
+    margin: 0;
+    background: rgba(255, 219, 158, 0.8);
+    color: #B9500F;
+}
