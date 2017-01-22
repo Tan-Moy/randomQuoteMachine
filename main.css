@@ -1,12 +1,76 @@
-body{
-    height: 100%;
+html, body {
     margin: 0;
+    height: 100%;
 }
 
 #viewPort{
     text-align: center;
+    padding: 10px;
 }
 
 #author{
     text-align: right;
+}
+
+#container{
+ padding-top: 10%;
+  width: 60%;
+  /*margin: 0 auto; */
+}
+
+.button{
+  padding: 10px;
+  margin: 0 auto; 
+  text-align: center;
+}
+
+#qbtn{
+  background-color:#EEEEEE;
+  color:#353333;
+  border-width:  1px;
+  border-radius: 5px;
+  border-color: black;
+  border-style: solid;
+  padding: 14px 24px;
+  font-weight: 700;
+  letter-spacing: 1px;
+  height: 100%;
+  outline: none;
+  font-size: inherit;
+  transition: all 0.3s;
+  --webkit-transition: all 0.3s;
+  --moz-transition: all 0.3s;
+}
+
+#tbtn{
+  background-color:#EEEEEE;
+  color:#353333;
+  border-width:  1px;
+  border-radius: 5px;
+  border-color: black;
+  border-style: solid;
+  padding: 14px 24px;
+  font-weight: 700;
+  letter-spacing: 1px;
+  height: 100%;
+  outline: none;
+  font-size: inherit;
+  transition: all 0.3s;
+  --webkit-transition: all 0.3s;
+  --moz-transition: all 0.3s;
+}
+
+#qbtn:hover{
+    color: white;
+    background: steelblue;
+}
+
+#tbtn:hover{
+    color: white;
+    background: steelblue;
+}
+
+#jumbo{
+    padding: 5%;
+    
 }

@@ -55,7 +55,7 @@ $(document).ready(function () {
         var quoteTemp = c.replace(/ /g, '%20');
         console.log(quoteTemp);
         var tweetContent = "https://twitter.com/intent/tweet?text=" + '"' + quoteTemp + "%20" + d + '"';
-        $("a[href='https://twitter.com/intent/tweet?text=Hello%20world']").attr('href', tweetContent);
+        $("a").prop("href", tweetContent);
     }
 
 
